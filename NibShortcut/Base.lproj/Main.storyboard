@@ -20,6 +20,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rm-bP-Woi">
                                 <rect key="frame" x="267" y="285" width="67" height="30"/>
                                 <state key="normal" title="LoadView"/>
+                                <connections>
+                                    <action selector="loadView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xjW-fH-L2C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

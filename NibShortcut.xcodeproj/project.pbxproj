@@ -12,6 +12,8 @@
 		DACA541C1D218DC100751353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACA541A1D218DC100751353 /* Main.storyboard */; };
 		DACA541E1D218DC100751353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACA541D1D218DC100751353 /* Assets.xcassets */; };
 		DACA54211D218DC100751353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACA541F1D218DC100751353 /* LaunchScreen.storyboard */; };
+		DACA54291D218F1A00751353 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACA54281D218F1A00751353 /* CustomView.xib */; };
+		DACA542B1D218F2400751353 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA542A1D218F2400751353 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DACA541D1D218DC100751353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACA54201D218DC100751353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACA54221D218DC100751353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACA54281D218F1A00751353 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		DACA542A1D218F2400751353 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				DACA54161D218DC100751353 /* AppDelegate.swift */,
 				DACA54181D218DC100751353 /* ViewController.swift */,
+				DACA54281D218F1A00751353 /* CustomView.xib */,
+				DACA542A1D218F2400751353 /* CustomView.swift */,
 				DACA541A1D218DC100751353 /* Main.storyboard */,
 				DACA541D1D218DC100751353 /* Assets.xcassets */,
 				DACA541F1D218DC100751353 /* LaunchScreen.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACA54211D218DC100751353 /* LaunchScreen.storyboard in Resources */,
+				DACA54291D218F1A00751353 /* CustomView.xib in Resources */,
 				DACA541E1D218DC100751353 /* Assets.xcassets in Resources */,
 				DACA541C1D218DC100751353 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACA542B1D218F2400751353 /* CustomView.swift in Sources */,
 				DACA54191D218DC100751353 /* ViewController.swift in Sources */,
 				DACA54171D218DC100751353 /* AppDelegate.swift in Sources */,
 			);
